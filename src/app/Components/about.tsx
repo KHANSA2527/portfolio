@@ -1,8 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center  text-center  bg-white" id="about">
+    <div
+      className="flex flex-col items-center  text-center  bg-white"
+      id="about"
+    >
       <h1 className="text-4xl text-black font-bold mb-6">About Me</h1>
 
       <div className="text-gray-700 max-w-2xl text-lg ">
@@ -16,7 +19,6 @@ const About = () => {
       </div>
 
       <h1 className="text-4xl text-black font-bold mt-8 mb-4">My Experience</h1>
-
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl text-left mx-auto p-8">
         <div className="p-6 bg-gray-100 rounded-lg shadow-md hover:bg-orange-500 hover:text-white">
           <h3 className="text-2xl font-semibold mb-2">Front-End Development</h3>
@@ -36,7 +38,6 @@ const About = () => {
           </p>
         </div>
 
-      
         <div className="p-6 bg-gray-100 rounded-lg shadow-md hover:bg-orange-500 hover:text-white">
           <h2 className="text-2xl font-semibold mb-2">DataBase Management</h2>
           <p className="text-gray-600 group-hover:text-white">
@@ -48,6 +49,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

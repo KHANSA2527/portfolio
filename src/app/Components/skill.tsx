@@ -4,7 +4,10 @@ import React from "react";
 const skill = () => {
   return (
     <>
-      <div className="w-full h-auto mt-2 mb-2 px-4 flex flex-col gap-y-4  gap-3 justify-start items-center bg-white" id="skill">
+      <div
+        className="w-full h-auto mt-2 mb-2 px-4 flex flex-col gap-y-4  gap-3 justify-start items-center bg-white"
+        id="skill"
+      >
         <h1 className="text-4xl 2xl:text-[30px] text-black font-bold mb-4 text-center p-8">
           My Skills
         </h1>
@@ -22,6 +25,7 @@ const skill = () => {
               height={80}
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
+            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/javascript-color.svg"
@@ -32,7 +36,6 @@ const skill = () => {
           </div>
 
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/react-gray.svg"
@@ -41,7 +44,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/react-color.svg"
@@ -52,7 +54,6 @@ const skill = () => {
           </div>
 
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/nextjs-gray.svg"
@@ -61,7 +62,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/next.svg"
@@ -71,7 +71,6 @@ const skill = () => {
             />
           </div>
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/tailwindcss-gray.svg"
@@ -80,7 +79,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/tailwind.svg"
@@ -90,7 +88,6 @@ const skill = () => {
             />
           </div>
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/node-grey.svg"
@@ -99,7 +96,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/node-color.svg"
@@ -109,7 +105,6 @@ const skill = () => {
             />
           </div>
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/expres-grey.svg"
@@ -118,7 +113,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/expressjs.svg"
@@ -128,7 +122,6 @@ const skill = () => {
             />
           </div>
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/mongodb-grey.svg"
@@ -137,7 +130,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/mongodb.svg"
@@ -147,7 +139,6 @@ const skill = () => {
             />
           </div>
           <div className="relative h-[80px] w-[80px] flip-vertical-rounded-[20px] transform transition-all duration-300 flex items-center justify-center bg-[#e7e7e7]/[0.2] p-6 group">
-            {/* Gray Image - initially visible */}
             <Image
               alt="react-gray"
               src="/images/postgress-gray.svg"
@@ -156,7 +147,6 @@ const skill = () => {
               className="absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
 
-            {/* Color Image - hidden initially, visible on hover */}
             <Image
               alt="react-color"
               src="/images/postgres.svg"

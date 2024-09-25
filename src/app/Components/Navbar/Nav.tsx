@@ -3,10 +3,10 @@ import Link from "next/link";
 import { useState } from "react";
 
 const Nav = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage the mobile menu toggle
+  const [isOpen, setIsOpen] = useState(false); 
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle the mobile menu
+    setIsOpen(!isOpen); 
   };
 
   return (
@@ -14,7 +14,7 @@ const Nav = () => {
       <div className="flex justify-center px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            {/* Mobile menu button */}
+           
             <button
               onClick={toggleMenu}
               type="button"
@@ -95,37 +95,37 @@ const Nav = () => {
         id="mobile-menu"
       >
         <div className="space-y-1 px-2 pb-3 pt-2">
-          <a
+          <Link
             href="#"
             className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
             aria-current="page"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="#about"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
             About Me
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="#skill"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
             Skills
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="#project"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
             Projects
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="#contact"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
