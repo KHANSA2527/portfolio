@@ -13,6 +13,9 @@ pnpm dev
 # or
 bun dev
 ```
+## Visit to Show Production
+
+Open [https://my-portfolio-six-sepia.vercel.app](https://my-portfolio-six-sepia.vercel.app) with your browser to see the production.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
