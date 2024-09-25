@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 w-full mx-auto">
-        <div className="h-auto bg-gray-100 p-6 shadow-md rounded-lg flex flex-col justify-between">
+        <div className="h-auto bg-gray-100 p-6 shadow-md rounded-lg flex flex-col justify-between hover:bg-orange-500 hover:text-white">
           <h2 className="text-xl font-semibold">Calculator</h2>
           <p className="text-black text-sm">
             A simple calculator to perform basic arithmetic operations.
@@ -21,7 +21,7 @@ const ProjectsSection = () => {
           </Link>
         </div>
 
-        <div className="h-auto bg-gray-100 p-6 shadow-md rounded-lg flex flex-col justify-between">
+        <div className="h-auto bg-gray-100 p-6 shadow-md rounded-lg flex flex-col justify-between hover:bg-orange-500 hover:text-white">
           <h2 className="text-xl font-semibold">Guess the Number</h2>
           <p className="text-black text-sm">
             A fun game where you guess a number between 1 and 50 with hints.
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
             </span>
           </Link>
         </div> 
-        <div className="h-auto bg-gray-100 p-6 shadow-md rounded-lg flex flex-col justify-between">
+        <div className="h-auto bg-gray-100 p-6 shadow-md rounded-lg flex flex-col justify-between hover:bg-orange-500 hover:text-white">
           <h2 className="text-xl font-semibold">ATM System</h2>
           <p className="text-black text-sm">
             A basic ATM simulation system allowing withdrawals and deposits.
