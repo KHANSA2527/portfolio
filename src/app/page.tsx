@@ -13,7 +13,8 @@ export default function Home() {
    <div className="flex flex-col justify-center items-center p-8 text-center">
   <div className="text-4xl text-black mb-4">
     <span className="font-bold">Hi, I{`'`}m Khansa Khan</span> <br />
-    <span>I{`'`}m a passionate Full Stack Developer</span>
+    <span>I {`'`}m a passionate Full Stack Developer</span>
+
   </div>
   <p className="text-gray-700 max-w-xl">
     With a strong foundation in both front-end and back-end technologies, I specialize in creating dynamic, scalable applications.
