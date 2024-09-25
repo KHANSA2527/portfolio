@@ -4,7 +4,7 @@ import React from "react";
 const skill = () => {
   return (
     <>
-      <div className="w-full h-auto mt-2 mb-2 px-4 flex flex-col gap-y-4  gap-3 justify-start items-center bg-white">
+      <div className="w-full h-auto mt-2 mb-2 px-4 flex flex-col gap-y-4  gap-3 justify-start items-center bg-white" id="skill">
         <h1 className="text-4xl 2xl:text-[30px] text-black font-bold mb-4 text-center p-8">
           My Skills
         </h1>

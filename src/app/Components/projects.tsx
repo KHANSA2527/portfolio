@@ -19,7 +19,7 @@
 // ];
 const ProjectsSection = () => {
   return (
-    <div className="max-w-6xl mx-auto p-8">
+    <div className="max-w-6xl mx-auto p-8" id="project">
     <h1 className="text-4xl 2xl:text-[30px] text-black font-bold mt-8 mb-4 text-center">
       My Projects
     </h1>

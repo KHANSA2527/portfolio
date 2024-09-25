@@ -4,7 +4,7 @@ import React from 'react'
 const contact = () => {
   return (
     <div>
-        <div className="p-4 mx-auto max-w-xl bg-white font-[sans-serif]">
+        <div className="p-4 mx-auto max-w-xl bg-white font-[sans-serif]" id="contact">
             <h1 className="text-3xl text-gray-800 font-extrabold text-center">Contact us</h1>
             <form className="mt-8 space-y-4">
                 <input type='text' placeholder='Name'
